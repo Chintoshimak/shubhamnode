@@ -8,5 +8,6 @@ response.writeHead( 200, {
 'Content-Type': 'text/plain'
 });
 response.write(body);
+response.end();
 });
 server.listen(port);
